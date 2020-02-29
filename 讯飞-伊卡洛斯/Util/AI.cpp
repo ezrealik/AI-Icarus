@@ -12,7 +12,7 @@ bool MscIsEnd = false;
 int NoSayCount = 0;
 bool InstallAI()
 {
-	const char* login_params = "appid = ÄãµÄAPPID,work_dir = .";
+	const char* login_params = "appid = ÄãµÄAPPID1,work_dir = .";
 	if (MSPLogin(NULL, NULL, login_params) != MSP_SUCCESS)return false;
 	_beginthreadex(NULL, NULL, (_beginthreadex_proc_type)AIAwakenThread, NULL, NULL, NULL);
 	_beginthreadex(NULL, NULL, (_beginthreadex_proc_type)AIReordThread, NULL, NULL, NULL);

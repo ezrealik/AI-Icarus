@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{ba446f2b-262c-444d-9ff1-642c3f25789a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\json">
+      <UniqueIdentifier>{0c23bfaa-5c63-4846-ac44-72b27259e0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\ModuleSDK">
+      <UniqueIdentifier>{bc6caf4f-9220-4794-8998-ecb0fe709cbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\AI.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\iat_online_record_sample.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\speech_recognizer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\winrec.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\AI_Shellcmd.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\AI_text_to_speech.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\json\json_reader.cpp">
+      <Filter>Util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\json\json_value.cpp">
+      <Filter>Util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\json\json_writer.cpp">
+      <Filter>Util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\lib_Hook.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\lib_http.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\lib_Process.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\lib_Socket.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\Process.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ModuleSDK\Text.cpp">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\AI_Awaken.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AI.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\iat_online_record.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\speech_recognizer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\winrec.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AI_Shellcmd.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AI_text_to_speech.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\autolink.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\config.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\features.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\forwards.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\json.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\json_batchallocator.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\reader.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\value.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\json\writer.h">
+      <Filter>Util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\lib_Hook.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\lib_http.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\lib_Process.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\lib_Socket.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\Module.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\Process.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ModuleSDK\Text.h">
+      <Filter>Util\ModuleSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AI_Awaken.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Util\json\json_internalarray.inl">
+      <Filter>Util\json</Filter>
+    </None>
+    <None Include="Util\json\json_internalmap.inl">
+      <Filter>Util\json</Filter>
+    </None>
+    <None Include="Util\json\json_valueiterator.inl">
+      <Filter>Util\json</Filter>
+    </None>
+    <None Include="Util\json\sconscript">
+      <Filter>Util\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
